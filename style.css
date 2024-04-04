@@ -1,0 +1,191 @@
+.pets{
+    display: flex;
+    gap: 54%;
+    
+}
+body{
+    margin-left: 14%;
+    margin-top: 5%;
+}
+.yourpet{
+    color: black;
+    font-weight: bold;
+    font-size: 208%;
+}
+.navbar a{
+    color: gray;
+}
+.family{
+    font-size: 410%;
+    color: #262535;
+}
+.we{
+    color: gray;
+    font-size: 180%;
+}
+.playbut{
+    display: flex;
+    gap: 10%;
+}
+.hero img{
+    margin-left: 13%;
+  
+}
+
+
+.player {
+    background: none;
+    width: 50px;
+    height: 50px;
+   
+    border-radius: 100%;
+    position: relative; 
+    text-indent:-9999px;
+    box-shadow: 1px 1px 3px #999999;
+  }
+  
+  .player span {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid rgb(27,160,171);
+    border-bottom: 15px solid transparent;
+    position:absolute;
+    top:20%;
+    left:36%;    
+  }
+  
+  .player:hover{
+    background:#4ccaea;
+    cursor:pointer;
+    opacity:0.8;
+    border:none;
+    position:absolute;  
+    width: 60px;
+    height: 60px; 
+    box-shadow:none;
+  }
+  
+  .player:hover span{
+    top:25%;
+    left:38%;
+  }
+.heroimg{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10%;
+}
+.services{
+    display: flex;
+    gap: 23%;
+}
+.which{
+    font-size: 250%;
+    color: #262535;
+}
+.radio{
+    font-weight: bold;
+}
+.icons{
+    display: flex;
+    gap:17%
+}
+.contact{
+    background-color: #E9FAFC;
+}
+.nurse{
+    display: flex;
+    gap:10%;
+}
+.pic1{
+    width: 5%;
+    border-radius: 55%;
+    
+}
+.interested{
+    display: flex;
+    gap: 15%;
+}
+.threepics{
+    display: flex;
+    gap: 20%;
+}
+.subscribe{
+    background-color: #E9FAFC;
+    padding: 45px 52px;
+}
+.sub{
+    position: absolute;
+    border: none;
+    padding: 45px 62px;
+    width: 65%;
+    font-size: 134%;
+
+}
+.line-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .orange-line {
+    width: 50px; /* Adjust the width of the line as needed */
+    height: 3px;
+    background-color: orange;
+    margin-right: 10px; /* Add space between the line and text */
+  }
+  
+  .line-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+  }
+.getstarted{
+    background-color: #1BA0AB;
+    border-radius: 12px;
+    /* width: 31%; */
+    padding: 15px 31px;
+    border: none;
+    color: #ffff;
+    font-size: 180%;
+}
+
+.signup{
+    position: relative;
+    translate: (-50%, -50%);
+   margin-left: 55%;
+   top: 45%;
+}
+.fam{
+    margin-top: 13%;
+}
+
+@media (min-width:375px) and (max-width:435px) {
+    .heroimg{
+        display: block;
+    }
+    .icons{
+        display: block;
+        align-items: center;
+    }
+    .nurse{
+        display: block;
+    }
+    .interested{
+        display: block;
+    }
+    .threepics{
+        display: block;
+    }
+    .nurse img{
+        width: 84%;
+    }
+    .threepics img{
+        width:84% ;
+    }
+    .services{
+        display: block;
+    }
+    
+  
+}
