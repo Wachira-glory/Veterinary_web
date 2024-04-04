@@ -31,8 +31,6 @@ body{
     margin-left: 13%;
   
 }
-
-
 .player {
     background: none;
     width: 50px;
@@ -65,7 +63,6 @@ body{
     height: 60px; 
     box-shadow:none;
   }
-  
   .player:hover span{
     top:25%;
     left:38%;
@@ -74,6 +71,9 @@ body{
     display: grid;
     grid-template-columns: auto auto;
     gap: 10%;
+}
+.bst{
+    font-size: 214%;
 }
 .services{
     display: flex;
@@ -85,22 +85,45 @@ body{
 }
 .radio{
     font-weight: bold;
+    font-size: 165%;
+}
+.lexa{
+    display: grid;
+    grid-template-columns: auto auto;
 }
 .icons{
     display: flex;
     gap:17%
 }
+.college{
+    font-size: 120%;
+    color: grey;
+}
 .contact{
-    background-color: #E9FAFC;
+    background-color: #59BCC4;
+    background-color: #1BA0AB;
+    border-radius: 12px;
+    /* width: 31%; */
+    padding: 13px 28px;
+    border: none;
+    color: #ffff;
+    font-size: 180%;
+    
 }
 .nurse{
+    background-color: #E9FAFC;
+    padding: 145px 152px;
     display: flex;
-    gap:10%;
+    gap: 1px;
 }
 .pic1{
-    width: 5%;
+    width: 15%;
     border-radius: 55%;
     
+}
+.picc1{
+    display: flex;
+    gap: -10%;
 }
 .interested{
     display: flex;
@@ -159,6 +182,39 @@ body{
 .fam{
     margin-top: 13%;
 }
+.diagnose{
+    font-size: 120%;
+}
+#footer{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    
+}
+
+#subscribe{
+    background-color: rgb(227,242,237);
+    width: 1000px;
+    text-align: center;
+    padding: 29px 39px;
+}
+#subd{
+    background-color: #59BCC4;
+    background-color: #1BA0AB;
+    border-radius: 12px;
+    /* width: 31%; */
+    padding: 13px 28px;
+    border: none;
+    color: #ffff;
+    font-size: 180%;
+}
+
+.input{
+    height: 90px;
+    width: 280px;
+    border-radius: 10%;
+    border: none;
+}
 
 @media (min-width:375px) and (max-width:435px) {
     .heroimg{
@@ -186,6 +242,146 @@ body{
     .services{
         display: block;
     }
-    
-  
+    #subscribe{
+        width: 24%;
+    }
+    #footer{
+        display: block;
+       text-align:center;
+    }
+    .input{
+        width: 83%;
+    }
+    .navbar{
+        margin-left: -12%;
+    }
+    .nurse{
+        display: flex;
+        flex-direction: column;
+    }
 }
+/* @media (min-width:360px) {
+    .navbar{
+       font-size: 23%;
+       margin-left: -91%;
+       margin-top: 15%;
+    }
+    .icons{
+        display: block;
+        
+    }
+    .nurse{
+        display: block;
+    }
+    .threepics{
+        display: block;
+    }
+    #subscribe{
+        width: 24%;
+    }
+    #footer{
+        display: block;
+       text-align:center;
+    }
+    .line-text{
+        font-size: 64%;
+    }
+    .family{
+        font-size: 64%;
+    }
+    .we{
+        font-size: 64%;
+    }
+    .heroimg{
+        display: block;
+    }
+    .hero {
+        width: 53%;
+    }
+    .getstarted{
+        background-color: #1BA0AB;
+        border-radius: 12px;
+        /* width: 31%; */
+        /* padding: 12px 12px;
+        border: none;
+        color: #ffff;
+        font-size: 50%;
+    }
+    .player {
+        background: none;
+        width: 50px;
+        height: 50px;
+       
+        border-radius: 100%;
+        position: relative; 
+        text-indent:-9999px;
+        box-shadow: 1px 1px 3px #999999;
+      }
+      .player {
+        background: none;
+        width: 50px;
+        height:40px;
+        border-radius: 100%;
+        position: relative; 
+        text-indent:-9999px;
+        box-shadow: 1px 1px 3px #999999;
+      }
+      .player span {
+        width: 0;
+        height: 0;
+        border-top: 15px solid transparent;
+        border-left: 20px solid rgb(27,160,171);
+        border-bottom: 15px solid transparent;
+        position:absolute;
+        top:20%;
+        left:36%;    
+      }
+      .services{
+        display: block;
+      }
+      .which{
+        font-size: 94%;
+      }
+      .weare{
+        font-size: 59%;
+      }
+      .radio{
+        font-size: 84%;
+      }
+      .diagnose{
+        font-size: 64%;
+      }
+      .interested{
+        display: block;
+      }
+      .int{
+        font-size: 71%;
+      }
+      .really{
+        font-size: 59%;
+      }
+      .neil{
+        width: 65%;
+      }
+      #subd{
+        background-color: #59BCC4;
+        background-color: #1BA0AB;
+        border-radius: 12px;
+        /* width: 31%; */
+        /* padding: 13px 28px; */
+        /* border: none;
+        color: #ffff;
+        font-size: 80%;
+      }
+      #footer{
+        margin-left: -40%;
+        font-size: 80%;
+      }
+      .input{
+        margin-left: -50%;
+        
+      }
+     
+
+    
+} */ 
