@@ -188,7 +188,7 @@ body{
 #footer{
     display: flex;
     flex-direction: row;
-    gap: 90px;
+    gap: 18%;
     
 }
 
